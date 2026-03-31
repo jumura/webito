@@ -1,0 +1,86 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+	line-height: 1;
+	width: 100vw;
+	height: 100vh;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#root {
+	display: flex;
+	position: relative;
+
+    /* <> Tema Claro */
+    --temaClaro-primario: #FFFFFF;
+    --temaClaro-secundario: #CACACA;
+    --temaClaro-fonte: #000000;
+
+    /* <> Tema Escuro */
+    --temaEscuro-primario: #0D1117;
+    --temaEscuro-secundario: #262C36;
+    --temaEscuro-fonte: #FFFFFF;
+
+    /* <> Tema Azul */
+    --temaAzul-primario: #B4BEFF;
+    --temaAzul-secundario: #102E77;
+    --temaAzul-fonte: #a4d1ec;
+
+    /* <> Tema Verde */
+    --temaVerde-primario: #9CFFA0;
+    --temaVerde-secundario: #173318;
+    --temaVerde-fonte: #C5FFB6;
+
+    /* <> Tema Vermelho */
+    --temaVermelho-primario: #FF9591;
+    --temaVermelho-secundario: #4A1513;
+    --temaVermelho-fonte: #FFCECE;
+
+    /* <> Tema Amarelo */
+    --temaAmarelo-primario: #FFFFA2;
+    --temaAmarelo-secundario: #4B4B2A;
+    --temaAmarelo-fonte: #FFFEB7;
+
+    /* <> Tema Roxo */
+    --temaRoxo-primario: #C2B2FF;
+    --temaRoxo-secundario: #2A1763;
+    --temaRoxo-fonte: #D4C9FF;
+}
